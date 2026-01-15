@@ -1,4 +1,4 @@
-hunGECsmall – Synthetic Hungarian GEC Dataset
+# hunGECsmall – Synthetic Hungarian GEC Dataset
 
 
 This repository contains code for generating **hunGECsmall**, a synthetic Hungarian Grammatical Error Correction (GEC) corpus and exporting it in Hugging Face TRL *conversational* SFT format.
@@ -13,11 +13,11 @@ This repository contains:
 - a multi-branch **error–injection pipeline** that produces (correct, incorrect) pairs with metadata
 - a **formatter** that converts these pairs to TRL conversational SFT JSONL
 
-Code license
+## Code license
 ------------
 The source code in this repository is licensed under the MIT License, unless stated otherwise.
 
-Dataset license (research-only)
+## Dataset license (research-only)
 -------------------------------
 The hunGECsmall synthetic dataset and any derivatives of the generated data
 are provided strictly for non-commercial research and educational use only.
