@@ -265,9 +265,8 @@ A schematic overview of the pipeline (data sources → cleaning → error inject
 
 ## Acknowledgements / inspiration
 
-This project is loosely inspired by prior work on grammatical error generation and GEC data augmentation, in particular:
+This project is loosely inspired by prior work on grammatical error generation and GEC data augmentation, some of them:
 
 - Rei et al., *Artificial Error Generation with Machine Translation and Syntactic Patterns* (BEA 2017).  
-- Sikos, *Synthetic Hungarian GEC Corpus via Multi-Stage Error Injection* (arXiv:2509.14504).
+- *Synthetic Hungarian GEC Corpus via Multi-Stage Error Injection* (arXiv:2509.14504).
 
-The implementation here is independent and tailored specifically to Hungarian and TRL conversational SFT, but the above papers influenced the overall direction.
