@@ -237,15 +237,9 @@ trainer.train()
 
 ## Pipeline diagram
 
-A schematic overview of the pipeline (data sources → cleaning → error injection → TRL formatting) is provided as an image:
+A schematic overview of the pipeline (data sources → cleaning → error injection → TRL formatting):
 
-```markdown
 ![hunGECsmall pipeline](docs/hunGECsmall_pipeline.png)
-```
-
-(The PNG is exported from the original PDF and placed under `docs/`.)
-
----
 
 ## Acknowledgements / inspiration
 
