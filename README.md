@@ -160,6 +160,26 @@ This JSONL file is what is uploaded to Hugging Face as the dataset.
 
 ---
 
+## Dependencies
+
+The core generation pipeline is written in Python and relies on a few standard NLP / LLM libraries.
+
+Tested with **Python 3.10** and the following packages:
+
+- `datasets` – loading mC4, Wikipedia, OPUS Books
+- `stanza` – dependency parsing for cross-lingual / syntactic errors
+- `sentence-transformers` – SBERT embeddings for semantic deduplication
+- `torch` – backend for sentence-transformers
+- `openai` – calling the LLM endpoint for error generation / cleaning
+- `requests`, `beautifulsoup4` – scraping and parsing the Hungarian Wikipedia typo list
+- `scikit-learn` – cosine similarity and basic utilities
+
+You can either recreate the environment from your own setup, or install the minimal dependencies with:
+
+```bash
+pip install datasets stanza sentence-transformers torch openai requests beautifulsoup4 scikit-learn
+```
+
 ## How to run locally
 
 Assume you cloned the repo and are in the project root:
@@ -168,6 +188,8 @@ Assume you cloned the repo and are in the project root:
 git clone https://github.com/MarkSikos/hunGECsmall.git
 cd hunGECsmall/src
 ```
+
+
 
 1. **Set up environment**
 
