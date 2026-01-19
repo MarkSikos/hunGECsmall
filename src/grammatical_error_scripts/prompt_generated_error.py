@@ -131,7 +131,7 @@ def generate_few_shot_noisy(
 
 
 # ---------------------------------------------------------------------------
-# EVOL branches (taskpool-based and generic) using generate_few_shot_noisy
+# EVOL Instruct / Simple few shot error generation using generate_few_shot_noisy
 # ---------------------------------------------------------------------------
 
 def branch_evol_taskpool(correct: str) -> Optional[Dict[str, Any]]:
