@@ -134,7 +134,7 @@ For LLM-based branches that generate **multiple** candidates, simple scoring is 
 - length ratio  
 - amount of token-level change  
 
-The highest-scoring candidate is kept. The main generator (`generate_errors.py`) orchestrates all branches and writes:
+The highest-scoring candidate is kept. The main generator (`main.py`) orchestrates all branches and writes:
 
 - `src/data/gec_pairs_step2.jsonl` – list of  
   `{ "id", "correct", "incorrect", "meta" }` records
