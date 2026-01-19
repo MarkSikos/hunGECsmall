@@ -15,7 +15,7 @@ This repository contains:
 
 ## Code license
 ------------
-The source code in this repository is licensed under the MIT License, unless stated otherwise.
+The source code in this repository is licensed under the MIT License.
 
 ## Dataset license (research-only)
 -------------------------------
