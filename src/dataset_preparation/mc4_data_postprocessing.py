@@ -102,8 +102,8 @@ def build_llm_filter_prompt(sentence: str) -> tuple[str, str]:
     Build (system, user) prompts for the Hungarian LLM cleaning step.
     """
     system = (
-        "You are a Hungarian text cleaner used for building a high-quality corpus. "
-        "You must strictly follow the requested JSON output format."
+        "Te egy magyar nyelvtani szöveg javító vagy, egy jó minőségű, tiszta korpusz összeállítására. "
+        "Neked szigorúan KÖVETNI KELL a megadott JSON formátumot."
     )
 
     user = f"""
