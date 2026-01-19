@@ -30,8 +30,6 @@ You may NOT:
 - Use the dataset or its derivatives for commercial purposes.
 - Redistribute the dataset as part of a commercial product or service.
 
-THE DATASET IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
-
 ---
 
 ## Supported Tasks
